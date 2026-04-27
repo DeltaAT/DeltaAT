@@ -1,7 +1,7 @@
 <!-- Header -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey,%20I'm%20DeltaAT%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Dev%20%7C%20ML%20Explorer%20%7C%20Code%20Wizard&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Hey,%20I'm%20DeltaAT%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Dev%20%7C%20ML%20Explorer%20%7C%20Code%20Wizard&descAlignY=55&descSize=18&theme=shadow_red" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A960F7&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Building+cool+stuff+with+code+%F0%9F%9A%80;ML+%7C+Full-Stack+%7C+Systems+Programming;Always+learning%2C+always+shipping+%E2%9A%A1)](https://git.io/typing-svg)
 
@@ -122,7 +122,7 @@ me.say_hi()
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&theme=shadow_red" width="100%"/>
 
 *"Any sufficiently advanced code is indistinguishable from magic." ✨*
 
