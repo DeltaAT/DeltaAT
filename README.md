@@ -1,9 +1,9 @@
 <!-- Header -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Hey,%20I'm%20DeltaAT%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Dev%20%7C%20ML%20Explorer%20%7C%20Code%20Wizard&descAlignY=55&descSize=18&theme=shadow_red" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&colors=500000,B31312,8B0000&height=180&section=header&text=Hey,%20I'm%20DeltaAT%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Dev%20%7C%20ML%20Explorer%20%7C%20Code%20Wizard&descAlignY=55&descSize=18" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A960F7&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Building+cool+stuff+with+code+%F0%9F%9A%80;ML+%7C+Full-Stack+%7C+Systems+Programming;Always+learning%2C+always+shipping+%E2%9A%A1)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF4444&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Building+cool+stuff+with+code+%F0%9F%9A%80;ML+%7C+Full-Stack+%7C+Systems+Programming;Always+learning%2C+always+shipping+%E2%9A%A1)](https://git.io/typing-svg)
 
 </div>
 
@@ -58,10 +58,11 @@ me.say_hi()
 
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)
-![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)
-![Seaborn](https://img.shields.io/badge/Seaborn-4EAEAA?logo=python&logoColor=fff)
-![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=for-the-badge&logo=numpy&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4EAEAA?style=for-the-badge&logo=python&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-71D291?style=for-the-badge&logo=python&logoColor=white)
+
 </div>
 
 ### ⚙️ Tools & DevOps
@@ -70,9 +71,9 @@ me.say_hi()
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![PyCharm](https://img.shields.io/badge/PyCharm-000?logo=pycharm&logoColor=fff)
-![WebStorm](https://img.shields.io/badge/WebStorm-000?logo=webstorm&logoColor=fff)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+![WebStorm](https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=webstorm&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
 </div>
 
@@ -115,7 +116,7 @@ me.say_hi()
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&theme=shadow_red" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&colors=500000,B31312,8B0000&height=100&section=footer" width="100%"/>
 
 *"Any sufficiently advanced code is indistinguishable from magic." ✨*
 
