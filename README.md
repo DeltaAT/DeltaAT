@@ -79,14 +79,14 @@ me.say_hi()
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=DeltaAT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A960F7&icon_color=A960F7&text_color=ffffff" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeltaAT&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A960F7&text_color=ffffff" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=DeltaAT&show_icons=true&theme=shadow_red&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeltaAT&layout=compact&theme=shadow_red&hide_border=true" height="165"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=DeltaAT&theme=tokyonight&hide_border=true&background=0D1117&ring=A960F7&fire=FF6B6B&currStreakLabel=A960F7)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=DeltaAT&theme=shadow_red&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
@@ -96,7 +96,7 @@ me.say_hi()
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=DeltaAT&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=DeltaAT&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -126,6 +126,6 @@ me.say_hi()
 
 *"Any sufficiently advanced code is indistinguishable from magic." ✨*
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=DeltaAT.DeltaAT&left_color=blueviolet&right_color=black)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=DeltaAT.DeltaAT&left_color=darkred&right_color=black)
 
 </div>
