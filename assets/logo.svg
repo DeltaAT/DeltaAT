@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="58%" r="60%">
+      <stop offset="0%" stop-color="#3d0000" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <path id="outer" d="M200 40 L360 330 L40 330 Z"/>
+  </defs>
+
+  <style>
+    .draw {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 2.2s cubic-bezier(.65,0,.35,1) forwards;
+    }
+    .draw.d2 { animation-delay: .5s; }
+    .pulse {
+      opacity: 0;
+      animation: fadein .6s 2.2s forwards, pulse 3s 2.8s ease-in-out infinite;
+    }
+    .spin {
+      transform-box: view-box;
+      transform-origin: 200px 233.3px;
+      animation: spin 18s linear infinite;
+    }
+    .spin-rev {
+      transform-box: view-box;
+      transform-origin: 200px 233.3px;
+      animation: spin 30s linear infinite reverse;
+    }
+    .glitch-a { opacity: 0; animation: glitchA 5s 3s steps(1) infinite; }
+    .glitch-b { opacity: 0; animation: glitchB 5s 3s steps(1) infinite; }
+    .shake { animation: shake 5s 3s steps(1) infinite; }
+    .late { opacity: 0; animation: fadein 1s 2.4s forwards; }
+
+    @keyframes draw   { to { stroke-dashoffset: 0; } }
+    @keyframes fadein { to { opacity: 1; } }
+    @keyframes pulse  { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+    @keyframes spin   { to { transform: rotate(360deg); } }
+    @keyframes shake {
+      0%   { transform: translate(0, 0); }
+      90%  { transform: translate(-4px, 1px); }
+      91%  { transform: translate(5px, -2px); }
+      92%  { transform: translate(-2px, 0); }
+      93%  { transform: translate(0, 0); }
+    }
+    @keyframes glitchA {
+      0%   { opacity: 0; transform: translate(0, 0); }
+      90%  { opacity: .85; transform: translate(-9px, 2px); }
+      91%  { opacity: .85; transform: translate(7px, -3px); }
+      92%  { opacity: 0; }
+    }
+    @keyframes glitchB {
+      0%   { opacity: 0; transform: translate(0, 0); }
+      90%  { opacity: .7; transform: translate(8px, -1px); }
+      91%  { opacity: .7; transform: translate(-6px, 3px); }
+      92%  { opacity: 0; }
+    }
+  </style>
+
+  <!-- background card -->
+  <rect width="400" height="400" rx="24" fill="#0d1117"/>
+  <rect width="400" height="400" rx="24" fill="url(#vignette)"/>
+
+  <!-- slow outer ring of ticks -->
+  <g class="spin-rev late" fill="none" stroke="#B31312" stroke-width="1.5" opacity=".6">
+    <circle cx="200" cy="233.3" r="150" stroke-dasharray="2 14" opacity=".55"/>
+  </g>
+
+  <!-- glitch ghosts -->
+  <use href="#outer" class="glitch-a" fill="none" stroke="#FF4444" stroke-width="6" stroke-linejoin="round"/>
+  <use href="#outer" class="glitch-b" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+
+  <g class="shake">
+    <!-- neon glow layer -->
+    <use href="#outer" class="pulse" fill="none" stroke="#FF2A2A" stroke-width="10" stroke-linejoin="round" filter="url(#soft)"/>
+
+    <!-- main self-drawing outline -->
+    <path class="draw" pathLength="1000" d="M200 40 L360 330 L40 330 Z"
+          fill="none" stroke="#FF4444" stroke-width="6" stroke-linejoin="round" filter="url(#glow)"/>
+    <path class="draw d2" pathLength="1000" d="M200 78 L328 310 L72 310 Z"
+          fill="none" stroke="#8B0000" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- inner inverted delta, rotating -->
+    <g class="spin">
+      <path class="draw d2" pathLength="1000" d="M139.4 198.3 L260.6 198.3 L200 303.3 Z"
+            fill="#B31312" fill-opacity=".12" stroke="#FF4444" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- core -->
+    <circle class="pulse" cx="200" cy="233.3" r="7" fill="#ffffff" filter="url(#glow)"/>
+  </g>
+
+  <!-- comet running along the outline -->
+  <g class="late">
+    <circle r="5" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="4s" begin="2.4s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#outer"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- label -->
+  <text class="late" x="200" y="372" text-anchor="middle" fill="#c9d1d9"
+        font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="18" letter-spacing="6">DELTA<tspan fill="#FF4444">AT</tspan></text>
+
+  <!-- CRT scanlines -->
+  <rect width="400" height="400" rx="24" fill="url(#scan)" pointer-events="none"/>
+</svg>
