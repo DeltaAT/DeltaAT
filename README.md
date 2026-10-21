@@ -19,31 +19,16 @@
 
 ## `> whoami`
 
-<table>
-  <tr>
-    <td width="42%" align="center">
-      <img src="assets/logo.svg" width="280" alt="DeltaAT logo"/>
-    </td>
-    <td width="58%">
-
 ```text
-deltaat@github
-──────────────────────────────────────
-Role ....... Full-Stack Dev
-             ML Explorer · Student
-Languages .. Python · TypeScript
-             C++ · Rust
-Interests .. AI/ML · Systems
-             Web Apps · Open Source
-Currently .. building something awesome
-Debugger ... print(), unashamed
-Uptime ..... always learning,
-             always shipping
+                /\                deltaat@github
+               /  \               ──────────────────────────────────────────
+              /    \              Role ......... Full-Stack Dev · ML Explorer · Student
+             /  /\  \             Languages .... Python · TypeScript · C++ · Rust
+            /  /  \  \            Interests .... AI/ML · Systems · Web Apps · Open Source
+           /  /    \  \           Currently .... building something awesome
+          /  /______\  \          Debugger ..... print()  — and not ashamed of it
+         /______________\         Uptime ....... always learning, always shipping
 ```
-
-</td>
-  </tr>
-</table>
 
 <details>
 <summary><b>🐍 <code>cat developer.py</code></b> — the source code of me</summary>
