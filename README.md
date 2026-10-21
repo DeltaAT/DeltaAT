@@ -101,8 +101,6 @@ me.say_hi()
   <img src="https://streak-stats.demolab.com?user=DeltaAT&hide_border=true&border_radius=12&background=0D1117&ring=B31312&fire=FF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF4444&sideLabels=FF4444&dates=8B949E&stroke=30363d" width="85%"/>
 </a>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DeltaAT&bg_color=0d1117&color=c9d1d9&line=FF4444&point=FFFFFF&area=true&area_color=B31312&title_color=FF4444&hide_border=true&radius=12&custom_title=Contribution%20Activity" width="100%"/>
-
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&colors=000000,B31312,000000&height=3" width="100%"/>
